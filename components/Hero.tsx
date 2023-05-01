@@ -2,28 +2,24 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
 import Image from "next/image";
-import ProfilePic from "../public/images/dad.jpg";
+import ProfilePic from "../public/images/stonebird.png";
 import Link from "next/link";
 
 type Props = {};
 
 const Hero = (props: Props) => {
   const [text, count] = useTypewriter({
-    words: [
-      "Hi, The name's Ompa",
-      "I work in Construction",
-      "<ButLoveToCode />",
-    ],
+    words: ["Leave no stones unturned"],
     loop: true,
     delaySpeed: 1700,
   });
   return (
-    <div className="h-screen flex flex-col space-y-4 items-center justify-center text-center overflow-hidden ">
+    <div className=" flex flex-col space-y-4 items-center justify-center text-center overflow-hidden ">
       <BackgroundCircle />
       <Image
         src={ProfilePic}
         alt="Picture or owner"
-        className="relative rounded-full h-48 w-48 mx-auto object-cover"
+        className="relative rounded-full h-58 w-58 mx-auto object-cover"
       />
       <div className="z-20">
         <h2 className="text-sm uppercase pb-2 text-[#f4faff] tracking-[10px] md:tracking-[14px] py-4">

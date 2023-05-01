@@ -10,7 +10,7 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <div className="h-screen relative flex flex-col space-y-4 justify-evenly mx-auto top-20 items-center text-center md:text-left md:flex-row max-w-7xl px-10 overflow-hidden ">
-      <h3 className="absolute top-10 uppercase tracking-[20px] text-[#f4faff] text-1.5xl xl:text-2xl font-bold">
+      <h3 className="absolute top-10 uppercase tracking-[20px] text-[#26313a] text-1.5xl xl:text-2xl font-bold">
         About
       </h3>
 
@@ -25,7 +25,7 @@ const About = (props: Props) => {
       <div className="space-y-10 px-0 md:px-10 ">
         <h4 className="text-4xl font-semibold">
           Here is a
-          <span className="underline decoration-[#237cb8]/40 px-3 font-light">
+          <span className="underline decoration-[#bcc8d1]/40 px-3 font-light">
             little
           </span>
           background about me
